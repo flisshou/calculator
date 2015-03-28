@@ -3,15 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CALCULATOR</title>
-	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript"></script>
-	<link rel="stylesheet" href="app.css">
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
 </head>
 <body>
-	<p id="output"></p>
-	<button id="btn1">1</button>
-	<button id="btn2">2</button>
-	<button id="btn3">3</button>
-	
+	<p id="output">0</p>
+	<div>
+		<button id="btn7" class="num">7</button>
+		<button id="btn8" class="num">8</button>
+		<button id="btn9" class="num">9</button>
+		<button id="btnMulti" class="oper">*</button>
+	</div>
+	<div>
+		<button id="btn4" class="num">4</button>
+		<button id="btn5" class="num">5</button>
+		<button id="btn6" class="num">6</button>
+		<button id="btnMinus" class="oper">-</button>
+	</div>
+	<div>
+		<button id="btn1" class="num">1</button>
+		<button id="btn2" class="num">2</button>
+		<button id="btn3" class="num">3</button>
+		<button id="btnPlus" class="oper">+</button>
+	</div>
+	<div>
+		<button id="btn0" class="num">0</button>
+		<button id="btnC" class="oper">C</button>
+		<button id="btnEqual" class="oper">=</button>
+		<button id="btnDivide" class="oper">/</button>
+	</div>	
 </body>
 </html>
